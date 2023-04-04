@@ -1,12 +1,12 @@
 import React from "react";
-// import { getUser } from "../hooks/user.actions";
+import { getUser } from "../hooks/user.actions";
 
 function Home() {
-//   const user = getUser();
+  const user = getUser();
 
-//   if (!user) {
-//     return <div>Loading!</div>;
-//   }
+  if (!user) {
+    return <div>Loading!</div>;
+  }
 
   return (
     <div>

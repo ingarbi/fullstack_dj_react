@@ -1,2 +1,38 @@
 venv
 __pycache__
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+react_front/social_media-app/node_modules
+/.pnp
+react_front/social_media-app/.pnp
+.pnp.js
+react_front/social_media-app/.pnp.js
+
+# testing
+/coverage
+react_front/social_media-app/coverage
+
+# production
+/build
+react_front/social_media-app/build
+
+# misc
+.DS_Store
+react_front/social_media-app/.DS_Store
+.env.local
+react_front/social_media-app/..env.local
+.env.development.local
+react_front/social_media-app/.env.development.local
+.env.test.local
+react_front/social_media-app/.env.test.local
+.env.production.local
+react_front/social_media-app/.env.production.local
+
+npm-debug.log*
+react_front/social_media-app/npm-debug.log*
+yarn-debug.log*
+react_front/social_media-app/yarn-debug.log*
+yarn-error.log*
+react_front/social_media-app/yarn-error.log*
